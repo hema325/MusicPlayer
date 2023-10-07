@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="player">
+        <div class="head">
+            <i class="fa-solid fa-chevron-down"></i>
+            <span>Now Playing</span>
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+        <img src="" class="img">
+        <div class="details">
+            <span class="name"></span>
+            <span class="artist"></span>
+        </div>
+        <div class="progress-area">
+            <div class="progress-bar">
+                <span class="progress"></span>
+                <audio src=""></audio>
+            </div>
+            <span class="time">0:00</span>
+            <span class="duration">00:00</span>
+        </div>
+        <div class="controls">
+            <i class="fa-solid fa-repeat status-btn"></i>
+            <div class="wrapper">
+                <i class="fa-solid fa-backward-step prev-btn"></i>
+                <div class="play-pause-btn">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <i class="fa-solid fa-forward-step next-btn"></i>
+            </div>
+            <i class="fa-solid fa-music list-btn"></i>
+        </div>
+        <div class="music-list">
+            <div class="head">
+                <h3 class="title">
+                    <i class="fa-solid fa-music"></i>
+                    Music List
+                </h3>
+                <i class="fa-solid fa-xmark close"></i>
+            </div>
+            <ul></ul>
+        </div>
+    </div>
+
+    <script src="js/songs.js" defer></script>
+    <script src="js/main.js" defer></script>
+</body>
+
+</html>
